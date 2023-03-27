@@ -37,6 +37,7 @@ function Login() {
     } else {
       setPasswordError('');
     }
+    alert('LOGGED IN')
     return isValid;
   };
 

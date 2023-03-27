@@ -45,8 +45,9 @@ function Signup() {
       setPasswordError('');
     }
     
-    
+    alert('sign up done')
     return isValid;
+   
     
   };
   
@@ -67,6 +68,7 @@ function Signup() {
 </div>
 <br />
       <form name="signupform" onSubmit={handleSubmit}>
+        
         
       <div class="signup-title">
 
@@ -113,6 +115,7 @@ function Signup() {
           <br />
           <br />
         </label>
+        
         <input type="submit" value="Create account" className="create-account-button" />
        
 

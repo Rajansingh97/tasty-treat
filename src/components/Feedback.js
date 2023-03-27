@@ -54,7 +54,7 @@ class FeedbackForm extends Component {
     }
   
     // Submit feedback
-    console.log('A feedback was submitted: ' + JSON.stringify(this.state));
+    alert('A feedback was submitted: ' );
   }
   
 
@@ -93,6 +93,7 @@ class FeedbackForm extends Component {
 
           
           <input type="submit" value="Submit" className="form-button" />
+          
         </form>
         
       </div>
