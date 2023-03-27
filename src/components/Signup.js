@@ -45,7 +45,7 @@ function Signup() {
       setPasswordError('');
     }
     
-    alert('sign up done')
+    
     return isValid;
    
     

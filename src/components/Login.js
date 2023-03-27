@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import '../css/Check.css';
 import Header from './Header';
+import CategoriesBar from './CategoriesBar';
 
 function Login() {
   
@@ -37,7 +38,7 @@ function Login() {
     } else {
       setPasswordError('');
     }
-    alert('LOGGED IN')
+   
     return isValid;
   };
 
@@ -47,6 +48,7 @@ function Login() {
     <div class="container">
     <NavBar />
     <div class="home-page">
+    
     
     
     <main>
@@ -118,6 +120,7 @@ function Login() {
     </div>
 
 <Footer/>
+
 </div>
 </>
   );
